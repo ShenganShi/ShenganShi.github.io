@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://ShenganShi.github.io/sitemap.xml
+Sitemap: https://modernconsulting.net/sitemap.xml
