@@ -17,7 +17,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- 项目页面 -->
+  <!-- 服务页面 -->
   <url>
     <loc>https://modernconsulting.net/service</loc>
     <lastmod>2025-10-30</lastmod>
@@ -27,7 +27,7 @@
 
   <!-- 联系页面 -->
   <url>
-    <loc>https://modernconsulting.net/who_we_are</loc>
+    <loc>https://modernconsulting.net/contact</loc>
     <lastmod>2025-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
