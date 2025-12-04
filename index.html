@@ -493,8 +493,8 @@
             };
 
             try {
-                // Submit the text data to the first Google Apps Script
-                const response1 = await fetch('https://script.google.com/macros/s/AKfycbxuTGeIzonyrl-eS7WEiIFb3Dm-OpHVrS-GvZtggEuxZjJMhr9LP3FcWOhr4SO75afp1A/exec', {
+                // Submit the text data to the first Google Apps Script https://script.google.com/macros/s/AKfycbxuTGeIzonyrl-eS7WEiIFb3Dm-OpHVrS-GvZtggEuxZjJMhr9LP3FcWOhr4SO75afp1A/exec
+                const response1 = await fetch('https://script.google.com/macros/s/AKfycbw7rmwd4_cfEPl_Vw7WeffYflRNz-FDUVJm5dtaIGCwVO1HOHyZJDoalitGCg0CWYU27w/exec', {
                     method: 'POST',
                     body: JSON.stringify(textData),
                     headers: {
@@ -512,7 +512,8 @@
                 }
 
                 // Submit the file data to the second Google Apps Script
-                const scriptUrl = 'https://script.google.com/macros/s/AKfycbyyz4cN2cZaBdDk2EfSPZDltTveLZiwTKunH2faVnebjp4gxNz1-i_Wded2kcwNJ0U/exec';
+                //const scriptUrl = 'https://script.google.com/macros/s/AKfycbyyz4cN2cZaBdDk2EfSPZDltTveLZiwTKunH2faVnebjp4gxNz1-i_Wded2kcwNJ0U/exec';
+				const scriptUrl ='https://script.google.com/macros/s/AKfycbxi7MrSYICMiOb1QOdmMMyou8Rb2D6oRnUBH6nf9xP1MitHb67OWbdsxrP8WFAvQioW/exec';
                 const response2 = await fetch(scriptUrl, {
                     method: 'POST',
                     headers: {
